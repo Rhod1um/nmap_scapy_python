@@ -15,3 +15,9 @@ from scapy.packet import Raw
 
 blev gjort ud fra dette:
 https://stackoverflow.com/questions/46602880/importerror-no-module-named-scapy-all
+
+Spm:
+scapy prompt sagde dette:
+sniff(filter="icmp", count=1000, timeout=10)
+<Sniffed: TCP:0 UDP:0 ICMP:0 Other:0>
+når jeg kørte exfiltratoren i kali, hvorfor?
